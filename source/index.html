@@ -24,10 +24,10 @@
   <body>
     <!-- magical breadcrumbs -->
     <div class="topnav">
-      <ul class="breadcrumb" style="max-width: 1024px;">
+      <ul class="breadcrumb" style="max-width: 1016px;">
         <li>
           <div class="dropdown">
-            <a data-toggle="dropdown" href="#">Apache Software Foundation <span class="caret"></span></a>
+            <a data-toggle="dropdown" href="#" style="color: #183751;">Apache Software Foundation <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
               <li><a href="http://www.apache.org">Apache Homepage</a></li>
               <li><a href="http://www.apache.org/licenses/">License</a></li>
@@ -37,13 +37,13 @@
             </ul>
           </div>
         </li>
-        <li><a href="http://mesos.apache.org">Apache Mesos</a></li>
+        <li><a href="http://mesos.apache.org" style="color: #183751;">Apache Mesos</a></li>
       </ul>
       <!-- /breadcrumb -->
     </div>
     <!-- navbar excitement -->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="container" style="max-width: 1024px;">
+    <div class="navbar navbar-default navbar-static-top" role="navigation" style="background-image: url('assets/img/background_image.png'); margin-bottom: 0px;">
+      <div class="container" style="max-width: 1016px;">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mesos-menu" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -64,18 +64,18 @@
           </ul>
         </div>
 
-        <div class="container-fluid homepage jumbotron" style="background: none;">
-          <h1 style="font-size: 40px; text-align: center; color: white; font-weight: 200;">
+        <div class="container-fluid homepage jumbotron" style="background: none;margin-top: 15px; margin-bottom: 65px;">
+          <h1 style="font-size: 40px;text-align: center;color: white;font-family: 'HelveticaNeue-Light';line-height: 1.2; margin-bottom: 18px;">
             Program against your datacenter<br>like it’s a single pool of resources
           </h1>
-          <p class="lead" style="text-align: center; color: white; font-weight: 150; font-size: 15px;">
+          <p class="lead" style="text-align: center;color: white;font-weight: 100;font-size: 15px;letter-spacing: 0.8px; margin-bottom: 46px;">
             Apache Mesos abstracts CPU, memory, storage, and other
             compute resources away from machines (physical<br>or virtual), enabling
             fault-tolerant and elastic distributed systems to easily be built and run
             effectively.
           </p>
-          <p style="text-align: center;">
-            <a class="btn btn-default download" style="border-radius: 30px;" href="downloads/">Download Mesos</a>
+          <p style="text-align: center; margin-bottom: 4px;">
+            <a class="btn btn-default download" style="border-radius: 30px; font-size: 16px; color: #333333; padding: 11px 28px;" href="downloads/">Download Mesos</a>
           </p>
           <p style="text-align: center;">
             <a href="https://git-wip-us.apache.org/repos/asf?p=mesos.git;a=blob_plain;f=CHANGELOG;hb=0.28.1" style="color: white; font-size: 15px;">
@@ -86,9 +86,9 @@
       </div>
     </div>
     <!-- /.navbar -->
-    <div class="container">
-      <div class="row">
-        <h3 style="font-size: 30px; font-weight: 200; text-align: center;">What is Mesos? A distributed systems kernel</h3>
+    <div style="padding-top: 75px;background-color: #F7F7F7; padding-bottom: 75px;">
+      <div class="row" style="margin-bottom: 45px;">
+        <h3 style="font-size: 30px;font-weight: 200;text-align: center;margin-bottom: 26px;">What is Mesos? A distributed systems kernel</h3>
         <p style="color: #777777; text-align: center;">
           Mesos is built using the same principles as the Linux kernel, only at a
           different level of abstraction. The Mesos<br>kernel runs on every machine
@@ -98,70 +98,69 @@
         </p>
       </div>
 
-      <div class="row" style="margin: 0;">
-        <div class="row">
+      <div class="row" style="margin: 0;max-width: 1100px;margin-left: auto;margin-right: auto;">
+        <div class="row" style="margin-bottom: 25px;">
           <div class="col-md-3">
-            <h4 style="color: #4EADE2;">LINER SCALABILITY</h4>
-            <p>Industry proven to easily scale to 10,000s of nodes.</p>
+            <h4 style="color: #4EADE2;font-family: 'HelveticaNeue-Medium';font-size: 16px;margin-bottom: 16px;">LINER SCALABILITY</h4>
+            <p style="font-family: 'HelveticaNeue-Light';font-size: 15px;">Industry proven to easily scale to 10,000s of nodes.</p>
           </div>
 
           <div class="col-md-3">
-            <h4 style="color: #4EADE2;">ZOOKEEPER</h4>
-            <p>Fault-tolerant replicated master and agents using Zookeeper.</p>
+            <h4 style="color: #4EADE2;font-family: 'HelveticaNeue-Medium';font-size: 16px;margin-bottom: 16px;">ZOOKEEPER</h4>
+            <p style="font-family: 'HelveticaNeue-Light';font-size: 15px;">Fault-tolerant replicated master and agents using Zookeeper.</p>
           </div>
 
           <div class="col-md-3">
-            <h4 style="color: #4EADE2;">DOCKER CONTAINERS</h4>
-            <p>Support for launching tasks that contains Docker iamges, with aslo
+            <h4 style="color: #4EADE2;font-family: 'HelveticaNeue-Medium';font-size: 16px;margin-bottom: 16px;">DOCKER CONTAINERS</h4>
+            <p style="font-family: 'HelveticaNeue-Light';font-size: 15px;">Support for launching tasks that contains Docker iamges, with aslo
             a subset of Docker options.</p>
           </div>
 
           <div class="col-md-3">
-            <h4 style="color: #4EADE2;">LINUX CONTAINERS</h4>
-            <p>Native isolation between tasks with Linux Containers</p>
+            <h4 style="color: #4EADE2;font-family: 'HelveticaNeue-Medium';font-size: 16px;margin-bottom: 16px;">LINUX CONTAINERS</h4>
+            <p style="font-family: 'HelveticaNeue-Light';font-size: 15px;">Native isolation between tasks with Linux Containers</p>
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-3">
-            <h4 style="color: #4EADE2;">Resource scheduling</h4>
-            <p>Mesos provides a mechanism for operators scheduling (memory, CPU,
+            <h4 style="color: #4EADE2;font-family: 'HelveticaNeue-Medium';font-size: 16px;margin-bottom: 16px;">RESOURCE SCHEDULING</h4>
+            <p style="font-family: 'HelveticaNeue-Light';font-size: 15px;">Mesos provides a mechanism for operators scheduling (memory, CPU,
             disk, and ports).</p>
           </div>
 
           <div class="col-md-3">
-            <h4 style="color: #4EADE2;">API</h4>
-            <p>Java, Python and C++ APIs for developing new parallel
+            <h4 style="color: #4EADE2;font-family: 'HelveticaNeue-Medium';font-size: 16px;margin-bottom: 16px;">API</h4>
+            <p style="font-family: 'HelveticaNeue-Light';font-size: 15px;">Java, Python and C++ APIs for developing new parallel
             applications.</p>
           </div>
 
           <div class="col-md-3">
-            <h4 style="color: #4EADE2;">WEB UI</h4>
-            <p>Built in Web UI for viewing cluster state.</p>
+            <h4 style="color: #4EADE2;font-family: 'HelveticaNeue-Medium';font-size: 16px;margin-bottom: 16px;">WEB UI</h4>
+            <p style="font-family: 'HelveticaNeue-Light';font-size: 15px;">Built in Web UI for viewing cluster state.</p>
           </div>
 
           <div class="col-md-3">
-            <h4 style="color: #4EADE2;">AWESOME 8TH FEATURE</h4>
-            <p>Lorem ipsum dolor sit amemt, consectetur adipiscing elit. Integer
+            <h4 style="color: #4EADE2;font-family: 'HelveticaNeue-Medium';font-size: 16px;margin-bottom: 16px;">AWESOME 8TH FEATURE</h4>
+            <p style="font-family: 'HelveticaNeue-Light';font-size: 15px;">Lorem ipsum dolor sit amemt, consectetur adipiscing elit. Integer
             nec odio.</p>
           </div>
         </div>
 
-        <hr>
       </div>
 
     </div>
     <!-- /container -->
 
     <!-- footer -->
-    <div class="footer" style="max-width: 1024px; margin-left: auto; margin-right: auto; margin-top: 25px;">
-      <div class="col-md-7">
+    <div class="footer" style="max-width: 1100px; margin-left: auto; margin-right: auto; margin-top: 45px;">
+      <div class="col-md-8" style="margin-bottom: 42px;">
         <p>&copy; 2012-2016 <a href="http://apache.org">The Apache Software Foundation</a>.
           Apache Mesos, the Apache feather logo, and the Apache Mesos project logo are trademarks of The Apache Software Foundation.
         <p>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-md-4">
         <span class="social" style="float: right;">
           <a href="https://twitter.com/ApacheMesos"
             class="twitter-follow-button"
